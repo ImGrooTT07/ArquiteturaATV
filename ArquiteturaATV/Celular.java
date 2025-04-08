@@ -8,6 +8,6 @@ public class Celular extends Produto {
     }
     @Override
     public double calcularPreco() {
-        return precoBase - (precoBase * percentualDesconto); // 10% de desconto
+        return precoBase - (precoBase * percentualDesconto); /// calcular desconto para o produto
     }
 }
