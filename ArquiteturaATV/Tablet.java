@@ -6,7 +6,7 @@ public class Tablet extends Produto {
         super(nome, precoBase, percentualDesconto);
 
     }
-    @Override
+    
     public double calcularPreco() {
         return precoBase - (precoBase * percentualDesconto); // calcular desconto para o produto
     }
