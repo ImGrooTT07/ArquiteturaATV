@@ -1,4 +1,4 @@
-package ArquiteturaATV;
+package src;
 
 public class Tablet extends Produto {
     

@@ -1,4 +1,4 @@
-package ArquiteturaATV;
+package src;
 
 public abstract class Produto {
     String nome;
