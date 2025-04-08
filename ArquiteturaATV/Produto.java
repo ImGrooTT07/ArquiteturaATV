@@ -12,9 +12,12 @@ public abstract class Produto {
         this.percentualDesconto = percentualDesconto;
     }
 
-    public abstract double calcularPreco();
+    public double calcularPreco() {
+        return precoBase - (precoBase * percentualDesconto); // calcular desconto para o produto
+    }
     
     public void exibirPreco() {
         System.out.printf("Preço final do %s: R$%.2f%n", nome, calcularPreco()); // concertando a repetição de varios System.out.println
     }
+
 }
